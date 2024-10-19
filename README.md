@@ -1,0 +1,73 @@
+# Car Sales table data
+- Data contained in the CarForSale, Centre, Salesperson, and Customer tables
+
+1. Centre table
+
+|CENTRENUMBER|NAME                          |ADDRESS                                           |EMAIL                         |PHONENUMBER   |CREATEDAT              |
+|------------|------------------------------|--------------------------------------------------|------------------------------|--------------|-----------------------|
+|CEN001      |Williams Landrover            |24 BARTON DOCK ROAD, Manchester, Lancashire       |williamsgroup@mail.co.uk      |01619376765   |2024-10-19 20:31:55.036|
+|CEN002      |Vertu Motors Land Rover Nelson|TURNER ROAD, Nelson, Lancashire                   |vertumotors@mail.co.uk        |01282522836   |2024-10-19 20:31:55.040|
+|CEN003      |Bristol Street Motors         |South Side, Eleanor Cross Road, Hertfordshire     |bristolstreet@mail.co.uk      |01992843665   |2024-10-19 20:31:55.044|
+|CEN004      |Wings Skoda Peterborough      |FENLAKE BUSINESS CENTRE, FENGATE, Northamptonshire|wingsskoda@mail.co.uk         |01733850432   |2024-10-19 20:31:55.048|
+|CEN005      |Johnsons Mazda Solihull       |Highlands Road, Solihull, West Midlands           |johnsonscars@mail.co.uk       |01216596666   |2024-10-19 20:31:55.051|
+
+
+2. Salesperson table
+
+|SALESPERSONNUMBER|FIRSTNAME                     |LASTNAME                      |ADDRESS                                           |PHONENUMBER   |EMAIL                         |CENTRENUMBER|CREATEDAT              |
+|-----------------|------------------------------|------------------------------|--------------------------------------------------|--------------|------------------------------|------------|-----------------------|
+|SAL001           |Luke                          |Bizza                         |Queen Street, Pontypridd, UK                      |              |lukebizza@mail.co.uk          |CEN001      |2024-10-19 20:31:55.313|
+|SAL002           |Elizabeth                     |Mongera                       |Bertha Street, Pontypridd, UK                     |              |elizabethmongera@mail.co.uk   |CEN002      |2024-10-19 20:31:55.317|
+|SAL003           |Mirriam                       |Wanjiru                       |Llantwit Road, Pontypridd, UK                     |447712345678  |mirriamwanjiru@mail.co.uk     |CEN003      |2024-10-19 20:31:55.320|
+|SAL004           |Chris                         |Njagi                         |llandaff, Cardiff, UK                             |447456789012  |chrisnjagi@mail.co.uk         |CEN004      |2024-10-19 20:31:55.323|
+|SAL005           |Dairus                        |Chikini                       | Aberdulais Road, Cardiff, UK                     |447598112233  |dairuschikini@mail.co.uk      |CEN005      |2024-10-19 20:31:55.326|
+|SAL006           |Jabez                         |Mzito                         |,Aberdulais Road  Cardiff, UK                     |447812 334455 |jabezmzito@mail.co.uk         |CEN001      |2024-10-19 20:31:55.329|
+|SAL007           |Janet                         |Smith                         |Beresford Road , Cardiff, UK                      |              |janetsmith@mail.co.uk         |CEN002      |2024-10-19 20:31:55.333|
+|SAL008           |Newton                        |Zari                          |Bisley Close, Cardiff, UK                         |447945667788  |newtonzari@mail.co.uk         |CEN003      |2024-10-19 20:31:55.335|
+|SAL009           |Martin                        |Shmoze                        |Ilsyn Grove, Bristol, UK                          |447564998877  |martinshmoze@mail.co.uk       |CEN004      |2024-10-19 20:31:55.342|
+|SAL010           |Diamond                       |Platinumz                     |Irby Road, Bristol, UK                            |447300223344  |diamondplatinumz@mail.co.uk   |CEN005      |2024-10-19 20:31:55.346|
+|SAL011           |Nandi                         |Billnass                      |Jocelyn Road, Bristol, UK                         |              |nandibillnass@mail.co.uk      |CEN002      |2024-10-19 20:31:55.349|
+|SAL012           |Ruger                         |Mwakazi                       |Kellaway Crescent, Bristol, UK                    |              |rugermwakazi@mail.co.uk       |CEN003      |2024-10-19 20:31:55.352|
+|SAL013           |Zion                          |lala                          |Kempton Close, Bristol, UK                        |447458123987  |zionlala@mail.co.uk           |CEN001      |2024-10-19 20:31:55.355|
+
+3. Customer table
+
+|CUSTOMERNUMBER|FIRSTNAME                     |LASTNAME                      |PHONENUMBER   |EMAIL                         |ADDRESS                                           |BADDEBTOR|CENTRENUMBER|CREATEDAT              |
+|--------------|------------------------------|------------------------------|--------------|------------------------------|--------------------------------------------------|---------|------------|-----------------------|
+|CUS001        |Hillary                       |Mongare                       |01235578836   |hillarymongare70@gmail.com    |45 Westbourne Road, London, W11 2BS               |0        |CEN001      |2024-10-19 20:31:55.174|
+|CUS002        |Justus                        |Ofweneke                      |02244578836   |justusofweneke@gmail.com      |7 Oak Avenue, Manchester, M20 3LD                 |1        |CEN002      |2024-10-19 20:31:55.179|
+|CUS003        |Mirriam                       |Akinyi                        |01669978811   |mirriamakinyi@gmail.com       |21 Highfield Street, Birmingham, B12 8QN          |0        |CEN001      |2024-10-19 20:31:55.182|
+|CUS004        |Innocent                      |Mandu                         |08839978836   |innocentmandu@gmail.com       |128 Kings Road, Brighton, BN1 2FA                 |0        |CEN002      |2024-10-19 20:31:55.185|
+|CUS005        |Yvonne                        |Mureithi                      |01776674436   |yvonnemureithi@gmail.com      |62 Maple Crescent, Cardiff, CF14 2JL              |1        |CEN002      |2024-10-19 20:31:55.187|
+|CUS006        |Diana                         |Kairetu                       |01581174436   |dianakairetu@gmail.com        |9 Rose Lane, Bristol, BS6 5TU                     |0        |CEN003      |2024-10-19 20:31:55.191|
+|CUS007        |Bill                          |Miregwa                       |01661277736   |billmiregwa@mail.co.uk        |34 Elmwood Drive, Leeds, LS8 2FG                  |0        |CEN002      |2024-10-19 20:31:55.193|
+|CUS008        |Collins                       |Mongare                       |01446611436   |collinsmongare@gmail.com      |78 Parkside Road, Glasgow, G44 3AB                |0        |CEN003      |2024-10-19 20:31:55.196|
+|CUS009        |Winnie                        |Miregwa                       |07590074406   |winniemiregwa@gmail.com       |14 Millbank Street, Edinburgh, EH8 9NG            |0        |CEN004      |2024-10-19 20:31:55.198|
+|CUS010        |Jack                          |Ma                            |01788134536   |jackma@gmail.com              |6 Riverside Avenue, Liverpool, L7 2DW             |1        |CEN005      |2024-10-19 20:31:55.201|
+|CUS011        |Lucy                          |Githinji                      |07551089906   |lucygithinji@gmail.com        |19 Castle Street, Nottingham, NG1 6FG             |0        |CEN004      |2024-10-19 20:31:55.207|
+|CUS012        |Brian                         |Bahati                        |07661055406   |brianbahati@gmail.com         |50 Victoria Way, Newcastle upon Tyne, NE1 7RH     |0        |CEN005      |2024-10-19 20:31:55.213|
+
+4. Car for Sale table
+
+|CENTRENUMBER|SALESPERSONNUMBER|CUSTOMERNUMBER|CARMAKE                       |CARMODEL                      |CARMANUFACTUREYEAR|CARTYPE                       |CARCOLOR                      |CARTRANSMISSION|CARCONDITION|CARFUELTYPE                   |SALEPRICE|COMMISSION|SOLD|SALEDATE               |ARCHIVED|
+|------------|-----------------|--------------|------------------------------|------------------------------|------------------|------------------------------|------------------------------|---------------|------------|------------------------------|---------|----------|----|-----------------------|--------|
+|CEN001      |SAL001           |CUS001        |Toyota                        |Corolla                       |2020              |Sedan                         |Red                           |automatic      |new         |Petrol                        |15,000   |600       |1   |2024-01-15 00:00:00.000|1       |
+|CEN002      |SAL002           |CUS002        |Honda                         |Civic                         |2019              |Sedan                         |Blue                          |manual         |used        |Petrol                        |12,000   |480       |1   |2023-11-05 00:00:00.000|1       |
+|CEN001      |SAL003           |CUS003        |Ford                          |Focus                         |2018              |Hatchback                     |White                         |automatic      |used        |Diesel                        |10,000   |300       |1   |2023-08-10 00:00:00.000|1       |
+|CEN003      |SAL004           |CUS004        |BMW                           |3 Series                      |2021              |Sedan                         |Black                         |automatic      |new         |Diesel                        |25,000   |1,250     |0   |2024-01-01 00:00:00.000|0       |
+|CEN002      |SAL005           |CUS005        |Nissan                        |Altima                        |2017              |Sedan                         |Grey                          |manual         |used        |Petrol                        |8,000    |240       |1   |2024-02-12 00:00:00.000|0       |
+|CEN001      |SAL001           |CUS006        |Chevrolet                     |Malibu                        |2018              |Sedan                         |Silver                        |automatic      |used        |Petrol                        |11,000   |440       |1   |2023-06-30 00:00:00.000|1       |
+|CEN003      |SAL006           |CUS007        |Volkswagen                    |Golf                          |2019              |Hatchback                     |Blue                          |automatic      |used        |Diesel                        |13,000   |520       |1   |2023-12-20 00:00:00.000|0       |
+|CEN002      |SAL002           |CUS008        |Mazda                         |CX-5                          |2020              |SUV                           |White                         |automatic      |new         |Petrol                        |18,000   |900       |1   |2023-10-25 00:00:00.000|1       |
+|CEN001      |SAL007           |CUS009        |Mercedes-Benz                 |C-Class                       |2022              |Sedan                         |Black                         |automatic      |new         |Diesel                        |30,000   |1,500     |0   |2023-01-01 00:00:00.000|0       |
+|CEN002      |SAL008           |CUS010        |Hyundai                       |Tucson                        |2019              |SUV                           |Red                           |manual         |used        |Petrol                        |14,000   |560       |1   |2023-07-15 00:00:00.000|1       |
+|CEN003      |SAL009           |CUS011        |Audi                          |A4                            |2021              |Sedan                         |Grey                          |automatic      |new         |Diesel                        |28,000   |1,400     |0   |2024-01-01 00:00:00.000|0       |
+|CEN001      |SAL010           |CUS012        |Lexus                         |RX 350                        |2020              |SUV                           |White                         |automatic      |new         |Petrol                        |35,000   |1,750     |0   |2024-01-01 00:00:00.000|0       |
+|CEN003      |SAL006           |CUS001        |Kia                           |Sorento                       |2018              |SUV                           |Black                         |manual         |used        |Petrol                        |10,000   |300       |1   |2023-11-30 00:00:00.000|0       |
+|CEN002      |SAL003           |CUS002        |Jeep                          |Wrangler                      |2022              |SUV                           |Green                         |automatic      |new         |Diesel                        |40,000   |2,000     |0   |2024-01-01 00:00:00.000|0       |
+|CEN001      |SAL004           |CUS003        |Toyota                        |RAV4                          |2021              |SUV                           |Silver                        |automatic      |new         |Petrol                        |26,000   |1,300     |0   |2024-01-01 00:00:00.000|0       |
+|CEN003      |SAL005           |CUS004        |Subaru                        |Forester                      |2017              |SUV                           |Blue                          |manual         |used        |Diesel                        |9,000    |270       |1   |2023-06-18 00:00:00.000|1       |
+|CEN001      |SAL006           |CUS005        |Ford                          |Explorer                      |2022              |SUV                           |Black                         |automatic      |new         |Petrol                        |27,000   |1,350     |1   |2024-03-01 00:00:00.000|0       |
+|CEN003      |SAL001           |CUS006        |Volvo                         |XC90                          |2021              |SUV                           |Black                         |automatic      |new         |Diesel                        |50,000   |2,500     |0   |2024-01-01 00:00:00.000|0       |
+|CEN002      |SAL002           |CUS007        |Honda                         |Accord                        |2020              |Sedan                         |Grey                          |automatic      |new         |Petrol                        |23,000   |1,150     |1   |2023-08-12 00:00:00.000|1       |
+|CEN001      |SAL003           |CUS008        |Toyota                        |Camry                         |2022              |Sedan                         |Blue                          |automatic      |new         |Petrol                        |27,000   |1,350     |0   |2024-01-01 00:00:00.000|0       |
